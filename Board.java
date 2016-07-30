@@ -5,15 +5,15 @@ public class Board {
     private ChessMan[][] chessManBoard = new chessManBoard[8][8];
 
     public Board() {
-        for(int i=0; i<chessManBoard.length; i++){
-            for(int j=0; j<chessManBoard.length; j++){
-                this.chessManBoard[i][j] = new ChessMan(i, j);
+        for(int rank=0; i<chessManBoard.length; rank++){
+            for(int file=0; j<chessManBoard.length; file++){
+                this.chessManBoard[rank][file] = new ChessMan(rank, file);
             }
         }
     }
 
-    public Square getChessMan(int x, int y) {
-        return chessManBoard[x][y];
+    public Square getChessMan(int rank, int file) {
+        return chessManBoard[rank][file];
     }
 
 }
