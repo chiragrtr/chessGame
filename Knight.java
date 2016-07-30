@@ -6,9 +6,4 @@ public class Knight extends Piece {
     public void movement() {
 
     }
-
-    @Override
-    public void capture() {
-
-    }
 }

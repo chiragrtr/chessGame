@@ -3,5 +3,4 @@
  */
 public abstract class ChessMan {
     public abstract void movement();
-    public abstract void capture();
 }

@@ -6,8 +6,6 @@ public class Pawn extends ChessMan {
     public void movement() {
 
     }
-
-    @Override
     public void capture() {
 
     }
