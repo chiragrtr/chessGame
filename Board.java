@@ -6,14 +6,14 @@ public class Board {
      private List<Piece> pieces = new ArrayList<>();
 
     public Board() {
-        for(int rank=0; i<chessManBoard.length; rank++){
-            for(int file=0; j<chessManBoard.length; file++){
-                this.chessManBoard[rank][file] = new ChessMan(rank, file);
+        for(int i=0; i<chessManBoard.length; i++){
+            for(int j=0; j<chessManBoard.length; j++){
+                this.chessManBoard[i][j] = new ChessMan(i, j);
             }
         }
     }
 
-    public Square getChessMan(int rank, int file) {
+    public ChessMan getChessMan(int i, int j) {
         return chessManBoard[rank][file];
     }
     
