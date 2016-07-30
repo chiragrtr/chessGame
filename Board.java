@@ -32,7 +32,7 @@ public class Board {
             pieces.add(new King(true, 4, 0));
         }
         else{
-            for(int i=0; i<PAWNS; i++){ // draw pawns
+            for(int i=0; i<PAWNS; i++){
                 pieces.add(new Pawn(true,i,6));
             }
             pieces.add(new Rook(true, 0, 7));
