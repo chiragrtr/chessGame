@@ -30,8 +30,7 @@ public class Board {
             pieces.add(new Knight(true, 6, 0));
             pieces.add(new Queen(true, 3, 0));
             pieces.add(new King(true, 4, 0));
-        }
-        else{
+        } else {
             for(int i=0; i<PAWNS; i++){
                 pieces.add(new Pawn(true,i,6));
             }
@@ -43,10 +42,7 @@ public class Board {
             pieces.add(new Knight(true, 6, 7));
             pieces.add(new Queen(true, 3, 7));
             pieces.add(new King(true, 4, 7));
+            }
         }
-
     }
-
-}
-
 }
