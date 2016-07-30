@@ -3,8 +3,6 @@
  */
 public class Pawn extends ChessMan {
 
-
-
     public Pawn(int rank,int file){
         this.rank = rank;
         this.file = file;
