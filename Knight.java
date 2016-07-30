@@ -6,4 +6,8 @@ public class Knight extends Piece {
     public void movement() {
 
     }
+    Knight(int posX, int posY){
+        this.posX = posX;
+        this.posY = posY;
+    }
 }

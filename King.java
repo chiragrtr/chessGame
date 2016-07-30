@@ -6,5 +6,8 @@ public class King extends Piece {
     public void movement() {
 
     }
-
+    public King(int rank, int file){
+        this.rank = rank;
+        this.file = file;
+    }
 }
