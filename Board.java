@@ -2,19 +2,19 @@
  * Created by guptah on 7/30/2016.
  */
 public class Board {
-    private ChessMan[][] chessManBoard = new chessManBoard[8][8];
+    private Square[][] squares = new Square[8][8];
      private List<Piece> pieces = new ArrayList<>();
 
     public Board() {
-        for(int i=0; i<chessManBoard.length; i++){
-            for(int j=0; j<chessManBoard.length; j++){
-                this.chessManBoard[i][j] = new ChessMan(i, j);
+        for(int i=0; i<squares.length; i++){
+            for(int j=0; j<squares.length; j++){
+                this.squares[i][j] = new Square(i, j);
             }
         }
     }
 
-    public ChessMan getChessMan(int i, int j) {
-        return chessManBoard[rank][file];
+    public Square getSquare(int i, int j) {
+        return squares[i][j];
     }
     
      public void initializePieces(){
