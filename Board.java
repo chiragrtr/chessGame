@@ -2,18 +2,18 @@
  * Created by guptah on 7/30/2016.
  */
 public class Board {
-    private Square[][] squares = new Square[8][8];
+    private ChessMan[][] chessManBoard = new chessManBoard[8][8];
 
     public Board() {
-        for(int i=0; i<squares.length; i++){
-            for(int j=0; j<squares.length; j++){
-                this.squares[i][j] = new Square(i, j);
+        for(int i=0; i<chessManBoard.length; i++){
+            for(int j=0; j<chessManBoard.length; j++){
+                this.chessManBoard[i][j] = new ChessMan(i, j);
             }
         }
     }
 
-    public Square getSquare(int x, int y) {
-        return squares[x][y];
+    public Square getChessMan(int x, int y) {
+        return chessManBoard[x][y];
     }
 
 }
