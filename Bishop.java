@@ -3,11 +3,13 @@
  */
 public class Bishop extends Piece {
     @Override
-    public void movement() {
+    public void move() {
 
     }
     public Bishop(int rank, int file){
         this.rank = rank;
         this.file = file;
+        this.Alive = true;
     }
+
 }

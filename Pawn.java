@@ -3,20 +3,17 @@
  */
 public class Pawn extends ChessMan {
 
+
+
     public Pawn(int rank,int file){
         this.rank = rank;
         this.file = file;
+        this.Alive = true;
     }
 
-    public int getRank(){
-     return this.rank;
-    }
 
-    public int getFile(){
-        return super.file;
-    }
     @Override
-    public void movement() {
+    public void move() {
 
     }
 

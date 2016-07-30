@@ -3,11 +3,20 @@
  */
 public class Knight extends Piece {
     @Override
-    public void movement() {
+    public void move() {
 
     }
     public Knight(int rank, int file){
         this.rank = rank;
         this.file = file;
+        this.Alive = true;
+    }
+
+    public int getRank(){
+        return this.rank;
+    }
+
+    public int getFile(){
+        return this.file;
     }
 }

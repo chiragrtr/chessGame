@@ -3,11 +3,13 @@
  */
 public class Queen extends Piece {
     @Override
-    public void movement() {
+    public void move() {
 
     }
     public Queen(int rank, int file){
         this.rank = rank;
         this.file = file;
+        this.Alive = true;
     }
+
 }

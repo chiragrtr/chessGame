@@ -6,10 +6,11 @@ public class Rook extends Piece {
     public Rook(int rank,int file) {
         this.rank = rank;
         this.file = file;
+        this.Alive = true;
     }
 
     @Override
-    public void movement() {
+    public void move() {
 
     }
 }
